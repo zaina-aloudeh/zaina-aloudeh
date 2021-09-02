@@ -1,0 +1,78 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 29 09:24:33 2021
+
+@author: zainaaloudeh
+"""
+
+#basic program 
+print ('hello world')
+import math
+#define variable 
+r=1.5
+math.pi*r**2
+
+#second question 
+
+a=2 
+b=3
+a**2+b**2
+
+#third question 
+x=2
+1+(x**0/math.factorial(0))+(x**1/math.factorial(1))+(x**2/math.factorial(2))+(x**3/math.factorial(3))+(x**4/math.factorial(4))
+
+x=2
+c+(x**2/math.factorial(2))+(x**3/math.factorial(3))+(x**4/math.factorial(4))
+
+x=2
+1+(x**1/math.factorial(1))+(x**2/math.factorial(2))+(x**3/math.factorial(3))+(x**4/math.factorial(4))
+#fourth question 
+r=1.5
+(4/3)*math.pi*r**3
+
+#fifth question
+n= 1 
+math.phi=((1 + 5**(1/2)))/2
+(math.phi**n-(1-math.phi)**n)/math.sqrt(5)
+
+#sixth question
+x=1
+miu=1
+math.sigma=2
+q6=(1/(math.sigma*math.sqrt(2*math.pi)))*math.e**(-1/2*((x-miu)/math.sigma)*2)
+print('q6 =', q6)
+
+#excercise 2, question 1
+import math 
+r=1.5
+A1= math.pi*r**2
+print ('A1=',A1)
+
+
+x = math.sqrt(-1)
+print (x)
+
+print('gig em')
+import numpy.random as rand
+x = rand.random()
+if x > 0.5:
+    print('x is greater than 0.5')
+else:
+    print('x is less than 0.5')
+
+import numpy.random as rand
+x = rand.random()
+if x > 0.5:
+    print('x is greater than 0.5')
+else:
+    print('x is less than 0.5')
+    
+    
+    
+qc = '''how are 
+you 
+doing today?'''
+print(
+
